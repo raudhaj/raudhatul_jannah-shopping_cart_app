@@ -1,0 +1,21 @@
+FUNCTION shoppingcart()
+
+START
+GET User login
+IF User login = No
+	Login failed
+ELSE
+	Proceed to Search Product
+Search Product
+View Product
+Add Product To Cart
+IF Payment = No
+	Go back to View Product
+ELSE 
+	Calculate Total Price
+IF Payment Method = 1
+	Do Online Payment
+Else
+	Do Cash on Delivery
+Checkout
+END
